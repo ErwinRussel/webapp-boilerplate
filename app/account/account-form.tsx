@@ -1,6 +1,6 @@
 'use client'
 import { useCallback, useEffect, useState } from 'react'
-import { Database } from '../database.types'
+import { Database } from '../../types/supabase'
 import { Session, createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 
 export default function AccountForm({ session }: { session: Session | null }) {
